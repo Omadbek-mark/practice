@@ -36,7 +36,7 @@ try:
     result = car_dict["origin"]
     print("result:", result)
 except Exception as err:
-    print("Error:", err)
+    print("General Error:", err)
 else:
     print("Executed successfully without errors")
 finally:
